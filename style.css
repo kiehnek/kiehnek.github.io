@@ -33,6 +33,9 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+section {
+  margin-bottom: 1.5rem;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
