@@ -1,8 +1,8 @@
 body {
   font-family: monospace;
+  background-color: #fdfdfd;
+  color: #151515;
   font-size: 1rem;
-  background-color: #151515;
-  color: #dfdfdf;
   margin: 1rem;
 }
 
@@ -26,9 +26,22 @@ body {
 
 a,
 a:visited {
-  color: #afafaf;
+  color: #3f3f3f;
 }
 
 h2 {
   margin-bottom: 0.5rem;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #dfdfdf;  
+  }
+
+  a,
+  a:visited {
+    color: #afafaf;
+  }
 }
