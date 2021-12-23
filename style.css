@@ -6,6 +6,23 @@ body {
   margin: 1rem;
 }
 
+p {
+  line-height: 1.35rem;
+}
+
+a,
+a:visited {
+  color: #3f3f3f;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
 .profile {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -22,19 +39,6 @@ body {
 .profile .info {
   max-width: 20rem;
   margin-right: auto;
-}
-
-a,
-a:visited {
-  color: #3f3f3f;
-}
-
-h2 {
-  margin-bottom: 0.5rem;
-}
-
-section {
-  margin-bottom: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
