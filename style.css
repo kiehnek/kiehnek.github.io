@@ -1,0 +1,31 @@
+body {
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #151515;
+  color: #dfdfdf;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 1rem;
+}
+
+.profile .picture {
+  max-width: 10rem;
+  margin-right: 1rem;
+  flex: 0 1 auto;
+}
+
+.profile .info {
+  max-width: 20rem;
+}
+
+a,
+a:visited {
+  color: #afafaf;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}

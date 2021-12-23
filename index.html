@@ -9,55 +9,47 @@
       href="https://github.com/korki43.png?size=64"
       type="image/x-icon"
     />
-    <style>
-      body {
-        display: flex;
-        flex-wrap: wrap;
-        font-family: monospace;
-        font-size: 1rem;
-      }
-
-      img.profile {
-        max-width: 10rem;
-        margin-right: 1rem;
-        flex: 0 1 auto;
-      }
-
-      a,
-      a:visited {
-        color: #222;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #111;
-          color: #ddd;
-        }
-
-        a,
-        a:visited {
-          color: #aaa;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
     <title>korki43</title>
   </head>
 
   <body>
-    <img
-      class="profile"
-      src="https://github.com/korki43.png"
-      alt="korki43 profile picture"
-    />
-
-    <div>
-      <b>korki43.github.io</b>
-      <hr />
-      <p>
-        GitHub: <a href="https://github.com/korki43">@korki43</a>
-        <br />
-        Mail: <a href="mailto:korki@duck.com">korki@duck.com</a>
-      </p>
-    </div>
+    <h1>korki43.github.io</h1>
+    <section>
+      <h2>About me</h2>
+      <div class="profile">
+        <img
+          class="picture"
+          src="https://github.com/korki43.png"
+          alt="korki43 profile picture"
+        />
+        <div class="info">
+          <p>
+            GitHub: <a href="https://github.com/korki43">@korki43</a>
+            <br />
+            Mail: <a href="mailto:korki@duck.com">korki@duck.com</a>
+          </p>
+          <p>
+            Interested in web development, cryptography and open source
+            software.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <p>
+            <a href="https://korki43.github.io/gauth-export/"
+              >Google Authenticator Migrator</a
+            >
+            <br />
+            Transform Google Authenticator Migration QR Codes to plain otpauth
+            URIs. (<a href="https://github.com/korki43/gauth-export">Source</a>)
+          </p>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
