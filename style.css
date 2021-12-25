@@ -1,7 +1,7 @@
 body {
   font-family: monospace;
-  background-color: #fdfdfd;
-  color: #151515;
+  background-color: #eceff4;
+  color: #2e3440;
   font-size: 1rem;
   margin: 1rem;
 }
@@ -12,7 +12,7 @@ p {
 
 a,
 a:visited {
-  color: #3f3f3f;
+  color: #3b4252;
 }
 
 h2 {
@@ -24,13 +24,14 @@ section {
 }
 
 .profile {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap-reverse;
   margin-bottom: 1rem;
   justify-content: center;
 }
 
 .profile .picture {
+  border-radius: 100%;
   max-width: 10rem;
   margin-right: 1rem;
   flex: 0 1 auto;
@@ -43,12 +44,12 @@ section {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1a1a1a;
-    color: #dfdfdf;  
+    background-color: #2e3440;
+    color: #eceff4;  
   }
 
   a,
   a:visited {
-    color: #afafaf;
+    color: #d8dee9;
   }
 }
